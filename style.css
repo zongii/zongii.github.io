@@ -127,3 +127,29 @@ body{
         display: flex;
     }
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+    margin-top: 10%;
+}
+
+::-webkit-scrollbar-track {
+    width: 10px;
+    margin-top: 3em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(199, 121, 49, 0.7);
+    border-radius:1vw;
+    transition: 0.5s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(255, 174, 97, 0.9);
+    border-radius:1vw;
+    transition: 0.5s;
+}
+
+html {
+    overflow-y: overlay;
+}
