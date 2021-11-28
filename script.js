@@ -35,8 +35,8 @@ function enter()
     static += cmdtext2+textarea.value.substring(n)
     
     var command = textarea.value.substring(n);
-    
-    if(command != '')
+    console.log(command)
+    if(command && command  != '')
     {
         var cmdArray = command.split(' ');
         if(cmdArray[0] == 'help')
@@ -141,18 +141,19 @@ function enter()
                 static += '\nArgument missing: <path>';
             }
         }
+        else if(cmdArray[0] == 'info') 
+        {
+            static += '\n-------------------------------';
+            static += '\nWork In Prograss.';
+            static += '\n-------------------------------';
+        }
         else 
         {
             static += '\nUnknown command: '+cmdArray[0];
             static += '\nType "help" for a list of commands'
         }
     }
-    else if(cmdArray[0] == 'info') 
-    {
-        static += '\n-------------------------------';
-        static += '\nWork In Prograss.';
-        static += '\n-------------------------------';
-    }
+    
     else
     {
         static += '\nType "help" for a list of commands'
