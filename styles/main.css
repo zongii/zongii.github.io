@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 * {
     font-family: 'Oswald', sans-serif;
     margin: 0;
@@ -16,13 +16,13 @@
 }
 
 body {
+    overflow: overlay;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
     min-height: 100vh;
     background-color: var(--background-color);
-    background-color: white;
 }
 
 canvas {
@@ -40,17 +40,19 @@ canvas {
 /* NAVIGATION */
 
 .navbar {
-    padding: 10px 0;
+    padding: 0 0 20px;
+    position: fixed;
     display: flex;
     justify-content: center;
     width: 100%;
     height: 5em;
-    background: linear-gradient(var(--navbar-color), var(--navbar-color), var(--navbar-color), var(--navbar-color), var(--shadow-color), transparent);
+    background: linear-gradient(var(--navbar-color), var(--navbar-color), var(--navbar-color), transparent);
 }
 
 .logo {
     height: 5em;
     width: 5em;
+    padding-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,21 +140,77 @@ canvas {
 
 /* SITE */
 
-.content {
+.page-body {
     display: flex;
     justify-content: center;
+}
+
+.content {
+    overflow: visible;
+    overflow-y: auto;
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     width: 100%;
-    height: 50vh;
+    min-height: calc(100vh - 18em);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--navbar-color);
+    border-radius: 2px;
+    opacity: 30%;
+    transition: 0.2s;
+}
+
+.placeholder {
+    color: white;
+    display: flex;
 }
 
 
 /* FOOTER */
 
 .footer {
-    padding: 10px 0;
+    padding: 4em 0 0;
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 15em;
+    height: 10em;
     background: linear-gradient(transparent, var(--shadow-color), var(--navbar-color), var(--navbar-color), var(--navbar-color), var(--navbar-color), var(--navbar-color));
+}
+
+.footer-columns {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copyright,
+.footer-links,
+.credits {
+    margin-top: 2em;
+    color: white;
+    font-size: 0.7em;
+    width: 25%;
+    max-height: 100%;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer a {
+    color: white;
+    decoration: none;
+}
+
+.footer h2 {
+    color: var(--accent-color);
+    margin-bottom: 0.5em;
 }

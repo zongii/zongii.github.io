@@ -162,7 +162,7 @@ var animate = (t) => {
 
 const pointerMove = (e) => {
     mouse.x = e.touches ? e.touches[0].pageX : e.pageX;
-    mouse.y = e.touches ? e.touches[0].pageY : e.pageY;
+    mouse.y = e.touches ? e.touches[0].pageY : e.pageY - window.scrollY;
 }
 
 let mouse = new V2(window.innerWidth / 2, window.innerHeight / 2);
