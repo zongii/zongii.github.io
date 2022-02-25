@@ -12,6 +12,7 @@
     /* --background-color: rgb(245, 245, 245); */
     --shadow-color: rgba(34, 34, 34, 0.3);
     --grayscale-color: rgb(90, 90, 90);
+    --grayscale-text-color: rgb(129, 129, 129);
     --text-color: rgba(255, 255, 255, 1);
     --hover-color: rgb(102, 231, 98);
     --accent-color: rgb(41, 207, 0);
@@ -25,6 +26,7 @@
     --navbar-color: rgb(38, 175, 7);
     --accent-color: rgb(255, 255, 255);
     --grayscale-color: rgb(153, 153, 153);
+    --grayscale-text-color: rgb(238, 238, 238);
     --secondary-accent-color: rgb(38, 175, 7);
     --hover-color: rgb(255, 255, 255);
     --shadow-color: rgba(211, 211, 211, 0.3);
@@ -359,6 +361,300 @@ canvas {
     transition: 0.3s;
     font-size: 0.9em;
     color: var(--text-color);
+}
+
+
+/* EXPERIENCE */
+
+.content-experience {
+    color: var(--text-color);
+    padding: 5em 0 0 0;
+    height: 90vh;
+    display: flex;
+    transition: 0.3s;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.experience-description {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    justify-content: center;
+    width: 35%;
+    height: 70vh
+}
+
+.experience-skillcard {
+    width: 50%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+.experience-skillcharts {
+    height: 50%;
+    width: 100%;
+}
+
+.experience-skillchart {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.experience-progressbar-main {
+    margin-top: 5px;
+    height: 3px;
+    width: 100%;
+    background-color: var(--grayscale-color);
+}
+
+.experience-progressbar-bar {
+    height: 3px;
+    width: var(--progress);
+    background-color: var(--secondary-accent-color);
+}
+
+.experience-jobs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
+.experience-jobs-job {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-height: 100%;
+    width: 48% !important;
+    background-color: var(--navbar-color);
+}
+
+.experience-jobs-job h2 {
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.experience-jobs-job h3 {
+    color: var(--grayscale-text-color);
+}
+
+.experience-jobs-job h4 {
+    color: var(--grayscale-text-color);
+    margin-bottom: 10px;
+}
+
+.experience-jobs-job p {
+    color: var(--grayscale-text-color);
+}
+
+.experience-description h2 {
+    color: var(--secondary-accent-color);
+}
+
+.experience-description span {
+    user-select: none;
+    transition: 0.3s;
+    font-size: 1em;
+    color: var(--secondary-accent-color);
+}
+
+.experience-description span:hover {
+    transition: 0.3s;
+    font-size: 0.9em;
+    color: var(--text-color);
+}
+
+
+/* PROJECTS */
+
+
+/* CONTACT */
+
+.content-contact {
+    color: var(--text-color);
+    padding: 5em 0 0 0;
+    height: 90vh;
+    display: flex;
+    transition: 0.3s;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.contact-icons {
+    padding-left: 5%;
+    width: 35%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-icons-person {
+    height: 19vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.contact-icons-mail {
+    height: 19vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.contact-icon {
+    height: 17vh;
+}
+
+.contact-icon:hover {
+    transform: rotate(12deg);
+    filter: brightness(110%);
+}
+
+.contact-icon-2 {
+    height: 19vh;
+}
+
+.contact-icon-2:hover {
+    transform: rotate(-12deg);
+    filter: brightness(110%);
+}
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    justify-content: center;
+    width: 55%;
+    height: 60vh;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-form-container h2 {
+    color: var(--secondary-accent-color);
+}
+
+.contact-form-container span {
+    user-select: none;
+    transition: 0.3s;
+    font-size: 1em;
+    color: var(--secondary-accent-color);
+}
+
+.contact-form-container span:hover {
+    transition: 0.3s;
+    font-size: 0.9em;
+    color: var(--text-color);
+}
+
+.contact-form input {
+    font-size: 0.8em;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    outline: none;
+    padding: 0 0 0 0.1em;
+    border-bottom: 2px solid var(--secondary-accent-color);
+    height: 2em;
+    color: var(--text-color);
+}
+
+.contact-form input:focus {
+    border-bottom: 2px solid var(--hover-color);
+}
+
+.contact-form textarea {
+    font-size: 0.8em;
+    background-color: rgba(0, 0, 0, 0.1);
+    resize: none;
+    border: none;
+    outline: none;
+    padding: 0 0 0 0.1em;
+    border-bottom: 2px solid var(--secondary-accent-color);
+    height: 8em;
+    color: var(--text-color);
+}
+
+.contact-form textarea:focus {
+    border-bottom: 2px solid var(--hover-color);
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: rgba(80, 80, 80, 0.1);
+}
+
+.contact-form input[type="submit"] {
+    margin: 1em 0 0 0;
+}
+
+.contact-form label {
+    font-size: 0.7em;
+    margin: 0.8em 0 0 0;
+}
+
+
+/* The alert message box */
+
+.alert-red {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 20px;
+    min-width: 200px;
+    background-color: #f44336;
+    /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+.alert-green {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 20px;
+    min-width: 200px;
+    background-color: #00c020;
+    /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+/* The close button */
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+/* When moving the mouse over the close button */
+
+.closebtn:hover {
+    color: black;
 }
 
 
