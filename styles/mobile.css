@@ -181,18 +181,21 @@
     /* HOMEPAGE */
     .content-home {
         color: var(--text-color);
-        padding: 2em 0 0 0;
-        height: 90vh;
+        padding: 5em 0 0 0;
+        height: fit-content;
+        min-height: 90vh;
         display: flex;
         transition: 0.3s;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: column;
     }
     .greeting {
         width: 100%;
-        height: 30vh;
+        height: fit-content;
+        min-height: 30vh;
         text-align: center;
+        margin: 0 0 2em 0;
         /* user-select: none;
         font-size: 2em;
         display: flex;
@@ -248,7 +251,8 @@
     .content-aboutme {
         color: var(--text-color);
         padding: 5em 0 0 0;
-        height: 90vh;
+        height: fit-content;
+        min-height: 90vh;
         display: flex;
         transition: 0.3s;
         justify-content: flex-start;
@@ -497,16 +501,18 @@
     .content-contact {
         color: var(--text-color);
         padding: 5em 0 0 0;
-        height: 90vh;
+        height: fit-content;
+        min-height: 90vh;
         display: flex;
         transition: 0.3s;
         justify-content: flex-end;
         flex-direction: column-reverse;
     }
     .contact-icons {
-        padding-left: 5%;
+        padding-left: 0;
         width: 100%;
-        height: 5em;
+        height: 6em;
+        margin-bottom: 2em;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -543,7 +549,9 @@
         font-size: 1.5em;
         justify-content: center;
         width: 100%;
-        height: 60vh;
+        height: fit-content;
+        min-height: 60vh;
+        margin: 2em 0;
     }
     .contact-form {
         display: flex;
@@ -643,6 +651,7 @@
     /* FOOTER */
     .footer {
         padding: 0 0 2em;
+        margin: 2em 0 0 0;
         display: flex;
         justify-content: center;
         width: 100%;
