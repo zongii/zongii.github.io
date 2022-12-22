@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd8f6b99.css",
-    "main.js": "/static/js/main.65802a59.js",
+    "main.css": "/static/css/main.2a509f8d.css",
+    "main.js": "/static/js/main.693d39bf.js",
     "static/media/music.wav": "/static/media/music.62d855d078fc0701b4fb.wav",
-    "static/media/marvo-sg.png": "/static/media/marvo-sg.736726c1581148ef7bfc.png",
     "static/media/marvo-bedwars.png": "/static/media/marvo-bedwars.92e7979cc4646d728652.png",
     "static/media/gateway.png": "/static/media/gateway.5f8a5c95e6452648796d.png",
     "static/media/marvo-spookyevent.jpg": "/static/media/marvo-spookyevent.74a14909ec4c0031fad7.jpg",
     "static/media/5.svg": "/static/media/5.bcff600499b503a045e5dd584a7d75d0.svg",
+    "static/media/jaskolka.png": "/static/media/jaskolka.232540be625fe8e18625.png",
     "static/media/portfolio.png": "/static/media/portfolio.b0f1bdc8f52b34a42889.png",
     "static/media/linkedin.png": "/static/media/linkedin.9dfdc9701c0e1eb622bb.png",
     "static/media/github.png": "/static/media/github.a5527b5c02e754fc4a6d.png",
@@ -37,11 +37,11 @@
     "static/media/wave-footer.svg": "/static/media/wave-footer.bcbf6ebcceefae138f8883ee2c3dd44c.svg",
     "static/media/wave.svg": "/static/media/wave.d130b70f4b44a2287a0b7d695ca1d2d9.svg",
     "static/media/unity.svg": "/static/media/unity.aafc7a7bdb6205d59407b43f7a81f4cf.svg",
-    "main.fd8f6b99.css.map": "/static/css/main.fd8f6b99.css.map",
-    "main.65802a59.js.map": "/static/js/main.65802a59.js.map"
+    "main.2a509f8d.css.map": "/static/css/main.2a509f8d.css.map",
+    "main.693d39bf.js.map": "/static/js/main.693d39bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd8f6b99.css",
-    "static/js/main.65802a59.js"
+    "static/css/main.2a509f8d.css",
+    "static/js/main.693d39bf.js"
   ]
 }
