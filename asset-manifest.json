@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2a509f8d.css",
-    "main.js": "/static/js/main.693d39bf.js",
+    "main.js": "/static/js/main.db585db0.js",
     "static/media/music.wav": "/static/media/music.62d855d078fc0701b4fb.wav",
     "static/media/marvo-bedwars.png": "/static/media/marvo-bedwars.92e7979cc4646d728652.png",
     "static/media/gateway.png": "/static/media/gateway.5f8a5c95e6452648796d.png",
@@ -38,10 +38,10 @@
     "static/media/wave.svg": "/static/media/wave.d130b70f4b44a2287a0b7d695ca1d2d9.svg",
     "static/media/unity.svg": "/static/media/unity.aafc7a7bdb6205d59407b43f7a81f4cf.svg",
     "main.2a509f8d.css.map": "/static/css/main.2a509f8d.css.map",
-    "main.693d39bf.js.map": "/static/js/main.693d39bf.js.map"
+    "main.db585db0.js.map": "/static/js/main.db585db0.js.map"
   },
   "entrypoints": [
     "static/css/main.2a509f8d.css",
-    "static/js/main.693d39bf.js"
+    "static/js/main.db585db0.js"
   ]
 }
