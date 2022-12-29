@@ -1,14 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a509f8d.css",
-    "main.js": "/static/js/main.db585db0.js",
-    "static/media/music.wav": "/static/media/music.62d855d078fc0701b4fb.wav",
-    "static/media/marvo-bedwars.png": "/static/media/marvo-bedwars.92e7979cc4646d728652.png",
-    "static/media/gateway.png": "/static/media/gateway.5f8a5c95e6452648796d.png",
-    "static/media/marvo-spookyevent.jpg": "/static/media/marvo-spookyevent.74a14909ec4c0031fad7.jpg",
+    "main.css": "/static/css/main.5b8f94aa.css",
+    "main.js": "/static/js/main.514e5ef9.js",
+    "static/media/music.wav": "/static/media/music.032d17279fbaa8e1eb2d.wav",
     "static/media/5.svg": "/static/media/5.bcff600499b503a045e5dd584a7d75d0.svg",
-    "static/media/jaskolka.png": "/static/media/jaskolka.232540be625fe8e18625.png",
-    "static/media/portfolio.png": "/static/media/portfolio.b0f1bdc8f52b34a42889.png",
+    "static/media/clouds1.svg": "/static/media/clouds1.093a62bca2a0265a29cd.svg",
     "static/media/linkedin.png": "/static/media/linkedin.9dfdc9701c0e1eb622bb.png",
     "static/media/github.png": "/static/media/github.a5527b5c02e754fc4a6d.png",
     "static/media/link.png": "/static/media/link.ec1c971c0a66905c4fed.png",
@@ -24,7 +20,10 @@
     "static/media/1.svg": "/static/media/1.54d3c10ff5aad8ad2f1c779beb01eba1.svg",
     "static/media/csharp.svg": "/static/media/csharp.e2c0510d2b743a87e7621b703ba07906.svg",
     "static/media/4.svg": "/static/media/4.1111ce2cba6f1913558b1eb80aad367c.svg",
+    "static/media/stars-S.svg": "/static/media/stars-S.055efd5cb0d0e57ada93.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.d39adae080cb59077b8c3a842bfd959c.svg",
+    "static/media/stars-L.svg": "/static/media/stars-L.717532dab6cd2dbf11e1.svg",
+    "static/media/stars-M.svg": "/static/media/stars-M.56763e09e26e42c8647a.svg",
     "static/media/html.svg": "/static/media/html.02c11ebc3bf614b206106cbe9cba90fd.svg",
     "static/media/javascript.svg": "/static/media/javascript.ba40d6a9629bf521391e764a593f9df3.svg",
     "static/media/github.svg": "/static/media/github.ca41d2a256bcffa9b92e1aa9659300a7.svg",
@@ -37,11 +36,11 @@
     "static/media/wave-footer.svg": "/static/media/wave-footer.bcbf6ebcceefae138f8883ee2c3dd44c.svg",
     "static/media/wave.svg": "/static/media/wave.d130b70f4b44a2287a0b7d695ca1d2d9.svg",
     "static/media/unity.svg": "/static/media/unity.aafc7a7bdb6205d59407b43f7a81f4cf.svg",
-    "main.2a509f8d.css.map": "/static/css/main.2a509f8d.css.map",
-    "main.db585db0.js.map": "/static/js/main.db585db0.js.map"
+    "main.5b8f94aa.css.map": "/static/css/main.5b8f94aa.css.map",
+    "main.514e5ef9.js.map": "/static/js/main.514e5ef9.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a509f8d.css",
-    "static/js/main.db585db0.js"
+    "static/css/main.5b8f94aa.css",
+    "static/js/main.514e5ef9.js"
   ]
 }
